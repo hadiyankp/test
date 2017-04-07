@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class fibonaci{
     public static void main (String args[]){
         int[] bil=new int[100];
-        bil[0]=0;
+        bil[0]=1;
         bil[1]=1;        
         int deret;
         
