@@ -10,7 +10,7 @@ public class fibonaci{
         System.out.print("Masukan jumlah deret : ");
         String data = input.nextLine();
         deret = Integer.parseInt(data);
-         System.out.print("Jumlah : ");
+         System.out.print("Jumlah: ");
         for(int i=0;i<deret;i++){
             System.out.print(bil[i]+" ");
             bil[i+2]=bil[i]+bil[i+1];
